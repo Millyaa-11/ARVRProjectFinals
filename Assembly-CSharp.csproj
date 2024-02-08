@@ -10,7 +10,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{C18F299C-1161-E39B-A458-617F7B526297}</ProjectGuid>
+    <ProjectGuid>{7EC055F4-7B5D-C35B-EF3D-E3778A6FC4BB}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -61,6 +61,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Script\CharacterMovement.cs" />
+    <Compile Include="Assets\Script\Game.cs" />
     <Compile Include="Assets\Script\ARCapabilitiesManager.cs" />
     <Compile Include="Assets\InputSystem\PlayerInputActions.cs" />
     <Compile Include="Assets\Script\SurfaceCharacter.cs" />

@@ -384,6 +384,7 @@
 "Assets/Script/ARCapabilitiesManager.cs"
 "Assets/Script/CharacterMovement.cs"
 "Assets/Script/Enum.cs"
+"Assets/Script/Game.cs"
 "Assets/Script/Logger.cs"
 "Assets/Script/Singleton.cs"
 "Assets/Script/SurfaceCharacter.cs"

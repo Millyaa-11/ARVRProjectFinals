@@ -7,11 +7,13 @@ public class NewBehaviourScript : MonoBehaviour
 {
     public bool canPlace = false;
     private Pose placementPose;
+    public ARPlane arPlane;
 
     public GameObject targetIndicator;
     public GameObject objectToSpawn;
     public Camera xrCamera;
     public ARRaycastManager arRaycastMng; // Add this line to declare ARRaycastManager
+    public float minSurfaceSize = 0.3f; // Minimum surface size in meters (e.g., 30 cm)
 
     // Start is called before the first frame update
     void Start()
@@ -32,6 +34,10 @@ public class NewBehaviourScript : MonoBehaviour
         if (canPlace && Input.GetKeyUp(KeyCode.Space))
         {
             InstantiateObject();
+        }
+        else
+        {
+            Debug.LogError("Surface is too small to place the object.");
         }
     }
 
